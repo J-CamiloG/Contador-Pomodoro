@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+#app{
+    background-color: rgb(250, 250, 250);
+    padding: 50px 10px;
+    border-radius: 30px;
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+#value{
+    color: black;
+    font-size: 60px;
+    font-weight: 700;
+}
+#taskName{
+    color: rgb(54, 54, 54);
+    font-size: 30px;
+    font-weight: 700;
+}
+#itTask{
+    height: 20px;
+}
+#bAdd{
+    height: 26px;
+    background-color: rgb(117, 57, 117);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#bAdd:hover{
+    background-color: rgb(189, 189, 189);
+    color: black;
+}
+.start-button{
+    background-color: rgb(129, 55, 129);
+    border: none;
+    height: 50px;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.start-button:hover{
+    background-color: rgb(107, 17, 107);
+}
+.task{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 50px;
+
+    & .title{
+        font-size: 30px;
+        margin: 0 20px;
+        font-weight: 800;
+    }
+}
+.done{
+    background-color: rgb(129, 55, 129);
+    border: none;
+    height: 50px;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
